@@ -9,7 +9,7 @@ cask 'graalvm' do
     system_command '/bin/mv',
                    args: [
                            '-f', '--',
-                           "#{staged_path}/graalvm-ce-#{version.downcase}",
+                           "#{staged_path}/graalvm-ce-#{version.before_comma}.#{version.after_comma.before_colon}-rc{version.after_colon}",
                            "/Library/Java/JavaVirtualMachines/graalvm-ce-#{version.before_comma}.#{version.after_comma.before_colon}-rc{version.after_colon}"
                          ],
                    sudo: true
