@@ -12,4 +12,5 @@
 
 ```bash
 > brew cask install graalvm-ce
+> jenv add /Library/Java/JavaVirtualMachines/graalvm-ce-1.0.0-rc14/Contents/Home/
 ```
