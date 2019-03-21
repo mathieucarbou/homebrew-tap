@@ -8,6 +8,8 @@
 
 ## Available taps
 
+### GraalVM Community Edition
+
 ```bash
 > brew cask install graalvm-ce
 ```
