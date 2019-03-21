@@ -2,5 +2,5 @@
 
 ```bash
 brew tap mathieucarbou/tap
-brew cask install graalvm
+brew cask install graalvm-ce
 ```
