@@ -17,7 +17,7 @@
 
 __Notes:__
 
-* Adpated from @fniephaus (https://github.com/oracle/graal/issues/959)
+* Adpated from https://github.com/fniephaus (https://github.com/oracle/graal/issues/959)
 * Ideally needs to be in GraalVM repo and supported by them
 * Similar to https://github.com/AdoptOpenJDK/homebrew-openjdk/
 * Not sure if we need the symlink like in https://github.com/AdoptOpenJDK/homebrew-openjdk/blob/master/Casks/adoptopenjdk9.rb
